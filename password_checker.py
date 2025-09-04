@@ -6,6 +6,7 @@ def is_valid_password(password):
     - enthält Zahl
     - enthält Groß- und Kleinbuchstaben
     """
+# FIXME this has to be improved !
     if len(password) < 8:
         return False
     if not any(c.isdigit() for c in password):

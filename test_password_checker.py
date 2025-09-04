@@ -2,7 +2,7 @@
 import unittest
 # import re
 from password_checker import is_valid_password
-
+#FIXME JSC ssh keys funktionieren nicht, kein ssh pair auf diesen Pc vorhanden (Schulaccount), auch kein Profil dafür. Beim pushen wird automatisch die Credentials meines Privaten Githubs accounts genzutzt.
 class  TestMath(unittest.TestCase):
 
   __password = "12345Uhe?"
